@@ -1,0 +1,22 @@
+<html>
+<title>
+	Local Hack Day
+</title>
+
+<body>
+<h1>
+Autotinder
+</h1>
+
+<a href="{{url_for('ilike',name=rand,liked="yes")}}"><img src="{{url_for('static', filename='tick.png')}}"></a>
+<img src="https://i.imgur.com/{{rand}}">
+<a href="{{url_for('ilike',name=rand,liked="no")}}"><img src="{{url_for('static', filename='cross.png')}}"></a>
+
+<br>
+
+{{ yes_per }}
+{{ no_per }}
+
+</body>
+
+</html>
