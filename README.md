@@ -1,6 +1,6 @@
-# autotinder_MLH
+# autotinder-MLH
 
-**Experimental project put aside without completion**
+**Experimental project. Not completed**
 
 
 Started during the MLH hackathon in Leuven (2016), this uses Clarifai API to process new Tinder profile images to automatically select for
